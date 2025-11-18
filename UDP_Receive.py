@@ -33,3 +33,4 @@ while True:
     # Print data
     print ("received message:", data.decode('utf-8')) # As a string (check the ASCII table)
     print ("received bytes:", list(data)) # As byte values
+    print ("from address:", addr) # Print the address of the sender
