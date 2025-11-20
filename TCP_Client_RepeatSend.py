@@ -12,7 +12,8 @@ import logging  # This library will offer us a different method to print informa
 logging.basicConfig(level=logging.INFO)
 
 # This is the IP address of the machine that the data will be send to
-TCP_IP = "127.0.0.1"
+#TCP_IP = "127.0.0.1"
+TCP_IP = "138.38.229.177"  # University of Bath IP for testing over internet
 
 # This is the REMOTE port of the Server that we are sending the data to
 TCP_PORT = 25000
